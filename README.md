@@ -9,4 +9,4 @@
 
 https://www.gmass.co/smtp-test
 
-# **copyright © all rights reserved github.com/mousaanassar04**
+ **copyright © all rights reserved github.com/mousaanassar04**
