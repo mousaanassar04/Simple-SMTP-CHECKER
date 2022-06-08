@@ -366,17 +366,18 @@ class consumer(threading.Thread):
 <body>
 	<center>
 		<br><br><br>
-		<h1>[ > ]New Smtp Cracker V1 [ < ]</h1> <br>
-		<font color="#f16f6f"><h1>[ ! ]Developped by mousaanassar04 [ ! ]</h1></font><br><br><br>
-		<font size="6" color="red">/!\ WARNING /!\ <br><font color="red" size="6" ><"/">i don't accept any responsibility for any illegal usage !</font><"/"></font><br><br>
-		<font color="black" size="5" ><font color="red">Host :</font> '''+host+''' </font><br><br>
+		<h1>[ -> ]Simple-SMTP-CHECKER V1 [ <- ]</h1> <br>
+		<font color="#f16f6f"><h1>[ M ]Developped by mousaanassar04 [ M ]</h1></font><br><br><br>
+		<font size="6" color="red">: WARNING : <br><font color="red" size="6" >I don't accept any responsibility for any illegal usage.. </font><br><br>
+		<font size="6" color="green"> your luckly </font>
+        <font color="black" size="5" ><font color="red">Host :</font> '''+host+''' </font><br><br>
 		<font color="black" size="5" ><font color="red">Port :</font> '''+port+'''<br><br></font>
 		<font color="black" size="5" ><font color="red">Email :</font> '''+user+'''<br><br></font>
 		<font color="black" size="5" ><font color="red">Password :</font> '''+passw+'''<br><br></font>
-		<center><img src="https://media3.giphy.com/media/l0amJzVHIAfl7jMDos/giphy.gif?cid=790b7611ccaa13cb760190cf2810a1d5de7ea4ce35f96208&rid=giphy.gif"/>
+		<center><img src="https://media0.giphy.com/media/cFSbwZr4i0hVe/giphy.gif?cid=ecf05e47x9w717cn6vy727g1zllcwz8zk91itw4pjq0vsavo&rid=giphy.gif"/>
 		</center><br><br><br>
 		<font color="black" size="5" ><font color="red">Telegram :</font> @mousaanassar <br><br></font>
-		<font color="black" size="5" ><font color="red">github :</font> <a href="https://github.com/mousaanassar04">Click HEre</a><br><br></font>
+		<font color="black" size="5" ><font color="red">github :</font> <a href="https://github.com/mousaanassar04">Click Here</a><br><br></font>
 		<h2>© mousaanassar04 2022</h2>
 	</body>
 	</html>\r\n.\r\n'''
@@ -413,7 +414,7 @@ print('''
    / ._. \     \033[93m/$$$$$$  |$$  \   /$$ |$$$$$$$$/ $$$$$$$  |    \033[0;96m/ ._. \ 
  __\( Y )/__   \033[93m$$ \__$$/ $$$  \ /$$$ |   $$ |   $$ |__$$ |  \033[0;96m__\( Y )/__ 
 (_.-/'-'\-._)  \033[93m$$      \ $$$$  /$$$$ |   $$ |   $$    $$/  \033[0;96m(_.-/'-'\-._)
-   || A ||      \033[93m$$$$$$  |$$ $$ $$/$$ |   $$ |   $$$$$$$/      \033[0;96m|| R ||
+   || M ||      \033[93m$$$$$$  |$$ $$ $$/$$ |   $$ |   $$$$$$$/      \033[0;96m|| M ||
  _.' `-' '._   \033[93m/  \__$$ |$$ |$$$/ $$ |   $$ |   $$ |        \033[0;96m_.' `-' '._  
 (.-./`-'\.-.)  \033[93m$$    $$/ $$ | $/  $$ |   $$ |   $$ |       \033[0;96m(.-./`-'\.-.) 
  `-'     `-'    \033[93m$$$$$$/  $$/      $$/    $$/    $$/         \033[0;96m`-'     `-'
