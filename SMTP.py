@@ -56,7 +56,7 @@ except:
       raw_input('')
   else:
     os.system('pip2 install colorama')
-msg00 ="\n\033[92m##### GOOd Now You have all modules #####\n\033[0;96m############## Let's start ##############\033[92m\n"
+msg00 ="\n\033[92m##### Good Now You have all modules #####\n\033[0;96m############## Let's start ##############\033[92m\n"
 for i in msg00:
         sys.stdout.write(i)
         sys.stdout.flush()
