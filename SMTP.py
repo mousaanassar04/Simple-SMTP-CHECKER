@@ -431,7 +431,7 @@ if vers=='1.1':
 else:
  print("\033[91mThere is New Version available !! Do you Want To Update Your tool ? \033[00m")
  ok=raw_input('''
-   \033[91m[\033[94m1\033[91m]\033[00m YEs
+   \033[91m[\033[94m1\033[91m]\033[00m Yes
    \033[91m[\033[94m2\033[91m]\033[00m No
   \033[91m[\033[94m>\033[91m]\033[00m : ''')
  if ok=='1':
